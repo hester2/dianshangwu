@@ -1,0 +1,64 @@
+.my-content {
+  display: flex;
+  position: absolute;
+  top: 44px;
+  bottom: 50px;
+  width: 100%;
+}
+.my-content .cate-list {
+  width: 80px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  background-color: #e6f755;
+  position: relative;
+}
+.my-content .cate-list .mui-scroll-wrapper {
+  top: 0;
+  bottom: 0;
+}
+.my-content .cate-list .mui-scroll-wrapper .items {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  font-size: 12px;
+  text-align: center;
+  background: #FFF;
+  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+.my-content .cate-list .mui-scroll-wrapper .items.active {
+  background: #f5f5f5;
+  border-right: 1px solid transparent;
+}
+.my-content .cont-list {
+  flex: 1;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.my-content .cont-list .waper {
+  padding: 5px;
+  background: #FFF;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.my-content .cont-list .waper .items {
+  float: left;
+  width: 33.333%;
+  padding-bottom: 5px;
+}
+.my-content .cont-list .waper .items a {
+  display: block;
+  width: 33.333%;
+}
+.my-content .cont-list .waper .items img {
+  width: 100%;
+  display: block;
+}
+.my-content .cont-list .waper .items span {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #8f8f94;
+}
