@@ -33,3 +33,9 @@ ul {
 a {
   color: #000;
 }
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #fff;
+}
+.mui-icon-reload:before{
+	color: #fff;
+}

@@ -1,0 +1,66 @@
+.mui-icon-back:before,
+.mui-icon-left-nav:before {
+  color: #fff;
+}
+.mui-icon-reload:before {
+  color: #fff;
+}
+.mui-scroll-wrapper {
+  position: absolute;
+  top: 44px;
+  bottom: 55px;
+}
+.mui-scroll-wrapper .price-1 {
+  color: #ff3300;
+}
+.mui-scroll-wrapper .price-2 {
+  text-decoration: line-through;
+}
+.mui-scroll-wrapper .gray {
+  color: #8f8f94;
+}
+.mui-scroll-wrapper .total {
+  padding: 15px;
+}
+.mui-scroll-wrapper .detail-size {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.mui-scroll-wrapper .detail-size span {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.mui-scroll-wrapper .detail-size span .active {
+  background: #fa672d;
+  color: #FFF;
+}
+.mui-scroll-wrapper .detail-num {
+  padding: 10px;
+}
+.mui-scroll-wrapper .detail-num span {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  line-height: 28px;
+  text-align: center;
+}
+.mui-scroll-wrapper .detail-num span input {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  vertical-align: top;
+  text-align: center;
+}
