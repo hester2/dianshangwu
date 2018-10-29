@@ -6,7 +6,8 @@ $(function(){
 	   method:'get',
 	   success:function(result){
 		   $('#address').html(template('addressTpl',{result:result}))
-
+		//  console.log(template('addressTpl',{result:result}));
+		console.log(result);
 	   }
    });
 

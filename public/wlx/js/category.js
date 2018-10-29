@@ -5,7 +5,7 @@ $(function(){
 		url:'/category/queryTopCategory',
 		success:function(result){
 			$('#leftCate').html(template('leftCateTpl',{data:result.rows}))
-
+           
 			if(result.rows.length > 0){
 
 				var id = result.rows[0].id;
@@ -18,7 +18,7 @@ $(function(){
 					},
 					success:function(result){
 						$('#rightCate').html(template('rightCateTpl',{data:result.rows}))
-
+                    //   console.log(result);
 						$('#leftCate').find('a:first-child').addClass('active');
 
 					}

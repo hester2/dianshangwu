@@ -95,6 +95,7 @@ function findProduct(){
 
 			},
 			success:function(result){
+				console.log(result);
 
 				totalPage = Math.ceil(result.count/pageSize);
 
@@ -126,10 +127,9 @@ function findProduct(){
 
 				}
 
-				console.log(result)
 
 				$('#productBox').html(template('productTpl',{result:products}));
-
+				// console.log(template('productTpl',{result:products}));
 
 				// console.log(result);
 
